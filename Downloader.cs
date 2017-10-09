@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace DownloadLib
 {
-   public  class Downloader
+   public class Downloader
     {
+        static DownloadSubject subject = new DownloadSubject();
         public static void Download(string url,string location)
         {
           
@@ -38,7 +39,12 @@ namespace DownloadLib
 
         private static void Completed(object sender, AsyncCompletedEventArgs e)
         {
-            Debug.WriteLine("Download completed!");
+            subject.Next("Download completed!!");
+        }
+
+        public static void AttachToInternalSubject(Observer o)
+        {
+            subject.Attach(o);
         }
 
     }

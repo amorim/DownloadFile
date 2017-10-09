@@ -1,0 +1,5 @@
+C:\Users\lucas.amorim.000\Desktop\p3\refactored\DownloadFile\bin\Debug\DownloadLib.dll
+C:\Users\lucas.amorim.000\Desktop\p3\refactored\DownloadFile\bin\Debug\DownloadLib.pdb
+C:\Users\lucas.amorim.000\Desktop\p3\refactored\DownloadFile\obj\Debug\DownloadLibRefactored.csprojResolveAssemblyReference.cache
+C:\Users\lucas.amorim.000\Desktop\p3\refactored\DownloadFile\obj\Debug\DownloadLib.dll
+C:\Users\lucas.amorim.000\Desktop\p3\refactored\DownloadFile\obj\Debug\DownloadLib.pdb
